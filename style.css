@@ -1,61 +1,72 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
 }
-.nav{
+
+.nav {
     display: flex;
     justify-content: center;
 }
-.subnav{
+
+.subnav {
     padding-top: 40px;
     width: 1300px;
     display: flex;
     justify-content: space-between;
     /* background-color: red; */
 }
-.head{
+
+.head {
     display: flex;
     align-items: center;
 }
-.head img{
+
+.head img {
     height: 40px;
     width: 70px;
 }
-.head h1{
+
+.head h1 {
     font-size: 27px;
 }
-.login{
+
+.login {
     display: flex;
     align-items: center;
     gap: 10px;
 }
-.login img{
-height: 40px;
-width: 40px;
-border-radius: 50px;
+
+.login img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
 }
-.first{
+
+.first {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-.first h2{
+.first h2 {
     color: blueviolet;
     text-align: center;
 }
-.first h1{
+
+.first h1 {
     font-size: 48px;
     padding-top: 16px;
 }
-.first p{
+
+.first p {
     color: rgb(73, 70, 70);
     text-align: center;
     padding-top: 10px;
 }
-.first .area button{
+
+.first .area button {
     width: 200px;
     height: 47px;
     border-radius: 10px;
@@ -63,9 +74,79 @@ border-radius: 50px;
     background-color: blueviolet;
     color: white;
     font-size: 16px;
+    margin-top: 45px;
+}
 
-margin-top: 45px;}
-.first .btn{
+.first .btn {
     display: flex;
     justify-content: center;
+}
+.second{
+    display: flex;
+    justify-content: center;
+}
+.sub_two{
+    width: 1300px;
+    display: flex;
+    padding-top: 80px;
+}
+.sub_two .one{
+    width: 30%;
+    /* height: 50px; */
+    /* background-color: red; */
+}
+.sub_two .two{
+    width: 70%;
+    /* background-color: brown; */
+}
+.box1{
+    width: 310px;
+    height: 48vh;
+    border-radius: 15px;
+    background-color: white;
+    border: 2px solid rgb(230, 227, 227);
+}
+.hed{
+    display: flex;
+    padding-top: 20px;
+    padding-left: 8px;
+    gap: 7px;
+}
+.hed h3{
+    font-size: 17px;
+    color: rgb(61, 59, 59);
+}
+.hed p{
+    font-size: 14px;
+}
+.neutral{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.set1{
+    width: 90%;
+    height: 120px;
+    border-radius: 15px;
+    background-color: rgb(162, 96, 223);
+    z-index: 7;
+    background-image: url(./image/image.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    left: 40px;
+}
+
+.odd{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.set1 img{
+    width: 50px;
+    height: 50px;
+  
+}
+.set1 p{
+    font-size: 16px;
+    padding-left: 10px;
 }
