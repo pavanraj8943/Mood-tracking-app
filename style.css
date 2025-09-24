@@ -41,6 +41,8 @@
     height: 40px;
     width: 40px;
     border-radius: 50px;
+    background-position: center;
+    background-size: cover;
 }
 
 .first {
@@ -81,50 +83,200 @@
     display: flex;
     justify-content: center;
 }
-.second{
+
+
+.subfirst {
+    margin-top: 20px;
+    width: 700px;
+    height: 45vh;
+    border-radius: 15px;
+    background-color: white;
+    margin-left: 20px;
+    display: flex;
+    display: none;
+    border: 2px solid rgb(230, 227, 227);
+}
+
+
+.this {
+    width: 50%;
+    height: 100%;
+    padding-left: 14px;
+}
+
+.this h2 {
+    font-size: 30px;
+}
+
+.this h1 {
+    font-size: 40px;
+
+}
+
+.that {
+    width: 50%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    background-image: url(./image/smiling-face-white-teeth-flat-260nw-1087504610.webp);
+}
+
+.not {
+    width: 100%;
+    height: 50%;
+    padding-top: 20px;
+    /* background-color: red; */
+}
+
+.never img {
+    width: 40px;
+    height: 40px;
+}
+
+.never p {
+    padding-top: 10px;
+    font-size: 22px;
+}
+
+
+.subtwo {
+    margin-top: 10px;
+    width: 700px;
+    height: 20vh;
+    border-radius: 15px;
+    background-color: white;
+    margin-left: 20px;
+    display: none;
+    border: 2px solid rgb(230, 227, 227);
+}
+
+
+.or {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.or img {
+    height: 80px;
+    width: 80px;
+}
+
+.or p {
+    font-size: 26px;
+}
+
+.subtwo h1 {
+    font-size: 50px;
+    padding-left: 20px;
+}
+
+
+.subthree {
+    margin-top: 10px;
+    width: 700px;
+    height: 26vh;
+    border-radius: 15px;
+    background-color: white;
+    margin-left: 20px;
+    display: none;
+    border: 2px solid rgb(230, 227, 227);
+}
+
+
+.subthree .in {
+    display: flex;
+}
+
+.in img {
+    width: 50px;
+    height: 50px;
+}
+
+.para1 {
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 30px;
+    color: rgb(70, 68, 68);
+}
+
+.para2 {
+    font-size: 24px;
+    padding-left: 20px;
+    padding-top: 40px;
+    color: gray;
+}
+
+.para3 {
+    font-size: 22px;
+    padding-left: 20px;
+    padding-top: 50px;
+    color: rgb(73, 72, 72);
+}
+
+
+
+
+
+
+
+
+
+.second {
     display: flex;
     justify-content: center;
 }
-.sub_two{
+
+.sub_two {
     width: 1300px;
     display: flex;
     padding-top: 80px;
 }
-.sub_two .one{
+
+.sub_two .one {
     width: 30%;
     /* height: 50px; */
     /* background-color: red; */
 }
-.sub_two .two{
+
+.sub_two .two {
     width: 70%;
     /* background-color: brown; */
 }
-.box1{
+
+.box1 {
     width: 310px;
-    height: 48vh;
+    height: 45vh;
     border-radius: 15px;
     background-color: white;
     border: 2px solid rgb(230, 227, 227);
 }
-.hed{
+
+.hed {
     display: flex;
     padding-top: 20px;
     padding-left: 8px;
     gap: 7px;
 }
-.hed h3{
+
+.hed h3 {
     font-size: 17px;
     color: rgb(61, 59, 59);
 }
-.hed p{
+
+.hed p {
     font-size: 14px;
+
 }
-.neutral{
-    margin-top: 20px;
+
+.neutral {
+    margin-top: 10px;
     display: flex;
     justify-content: center;
 }
-.set1{
+
+.set1 {
     width: 90%;
     height: 120px;
     border-radius: 15px;
@@ -136,17 +288,127 @@
     left: 40px;
 }
 
-.odd{
+.odd {
     margin-top: 20px;
     display: flex;
     align-items: center;
 }
-.set1 img{
+
+.set1 img {
     width: 50px;
     height: 50px;
-  
+
 }
-.set1 p{
+
+.set1 p {
     font-size: 16px;
+    width: 210px;
     padding-left: 10px;
+}
+
+
+
+.box2 {
+    width: 680px;
+    height: 45vh;
+    border-radius: 15px;
+    background-color: white;
+    border: 2px solid rgb(230, 227, 227);
+}
+
+.box2 h2 {
+    font-size: 26px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.sub2 {
+    width: 100%;
+    height: 37vh;
+    background-image: url(./image/image\ \(copy\).jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+@media screen and (max-width:1025px) {
+
+
+    .sub_two{
+        width: 1300px;
+        gap: 20px;
+        padding-left: 10px;
+    }
+}
+
+
+
+@media screen and (max-width:768px) {
+
+    .first {
+        padding-top: 50px;
+    }
+
+    .first button {
+        display: none;
+    }
+
+    .subfirst {
+        margin-top: 20px;
+        width: 700px;
+        height: 45vh;
+        border-radius: 15px;
+        background-color: white;
+        margin-left: 20px;
+        display: flex;
+        border: 2px solid rgb(230, 227, 227);
+    }
+
+    .subtwo {
+        margin-top: 10px;
+        width: 700px;
+        height: 20vh;
+        border-radius: 15px;
+        background-color: white;
+        margin-left: 20px;
+        display: block;
+        border: 2px solid rgb(230, 227, 227);
+    }
+
+    .subthree {
+        margin-top: 10px;
+        width: 700px;
+        height: 26vh;
+        border-radius: 15px;
+        background-color: white;
+        margin-left: 20px;
+        display: block;
+        border: 2px solid rgb(230, 227, 227);
+    }
+    .sub_two {
+        padding-top: 10px;
+    }
+
+    .box1 {
+        width: 700px;
+        margin-left: 10px;
+    }
+
+    .set1 p {
+        width: 320px;
+        font-size: 18px;
+    }
+
+    .sub_two {
+        display: block;
+    }
+
+    .two {
+        padding-top: 20px;
+    }
+
+    .box2 {
+        margin-left: 10px;
+        width: 700px;
+    }
+
 }
