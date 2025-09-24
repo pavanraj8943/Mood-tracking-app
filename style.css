@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+}
+.subnav{
+    padding-top: 40px;
+    width: 1300px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: red; */
+}
+.head{
+    display: flex;
+    align-items: center;
+}
+.head img{
+    height: 40px;
+    width: 70px;
+}
+.head h1{
+    font-size: 27px;
+}
+.login{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.login img{
+height: 40px;
+width: 40px;
+border-radius: 50px;
+}
+.first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.first h2{
+    color: blueviolet;
+    text-align: center;
+}
+.first h1{
+    font-size: 48px;
+    padding-top: 16px;
+}
+.first p{
+    color: rgb(73, 70, 70);
+    text-align: center;
+    padding-top: 10px;
+}
+.first .area button{
+    width: 200px;
+    height: 47px;
+    border-radius: 10px;
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    font-size: 16px;
+
+margin-top: 45px;}
+.first .btn{
+    display: flex;
+    justify-content: center;
+}
