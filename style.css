@@ -11,7 +11,7 @@
 
 .subnav {
     padding-top: 40px;
-    width: 1300px;
+    width: 80%;
     display: flex;
     justify-content: space-between;
     /* background-color: red; */
@@ -97,7 +97,12 @@
     border: 2px solid rgb(230, 227, 227);
 }
 
-
+.this .not img{
+    width: 70%;
+    height: 120%;
+    padding-left: 70px;
+    display: none;
+}
 .this {
     width: 50%;
     height: 100%;
@@ -330,22 +335,53 @@
     background-size: cover;
 }
 
-@media screen and (max-width:1025px) {
-
-
-    .sub_two{
-        width: 1300px;
+@media screen and (max-width: 1024px) {
+    .sub_two {
+        width: 100%;
         gap: 20px;
         padding-left: 10px;
     }
+
+    .box1 {
+        width: 100%;
+       
+    }
+
+    .box2 {
+        width: 100%;
+       
+    }
+
+    .subfirst,.subtwo,.subthree {
+        width: 100%;
+    }
+
+    .first {
+        padding-top: 40px;
+    }
+
+    .first button {
+        display: block;
+        margin: 20px auto;
+    }
 }
-
-
 
 @media screen and (max-width:768px) {
 
+
+
+
+    .nav {
+        display: flex;
+        width: 700px;
+    }
+
+    .subnav{
+        width: 700px;
+    }
     .first {
         padding-top: 50px;
+        width: 700px;
     }
 
     .first button {
@@ -377,19 +413,21 @@
     .subthree {
         margin-top: 10px;
         width: 700px;
-        height: 26vh;
+        height: 30vh;
         border-radius: 15px;
         background-color: white;
         margin-left: 20px;
         display: block;
         border: 2px solid rgb(230, 227, 227);
     }
+
     .sub_two {
         padding-top: 10px;
     }
 
     .box1 {
         width: 700px;
+        height: 53vh;
         margin-left: 10px;
     }
 
@@ -411,4 +449,74 @@
         width: 700px;
     }
 
+}
+
+@media screen and (max-width: 425px) {
+
+    .nav {
+        width: 500px;
+    }
+.subnav{
+    width: 500px;
+}
+    .first {
+        width: 500px;
+    }
+
+    .first h1 {
+        text-align: center;
+    }
+
+    .subfirst {
+        width: 500px;
+        display: block;
+        height:70vh;
+
+    }
+
+    .this .not img{
+    width: 70%;
+    height: 120%;
+    padding-left: 70px;
+    display: block;
+    /* display: none; */
+}
+    .never{
+        padding-top: 70px;
+    }
+    .this{
+        width: 100%;
+    }
+    .this h2,h1{
+        text-align: center;
+    }
+
+    .that {
+        position: relative;
+        bottom: 210px;
+        left: 150px;
+        display: none;
+    }
+
+    .subtwo,
+    .subthree {
+        width: 500px;
+    }
+
+    .box1,
+    .box2 {
+        width: 500px;
+    }
+
+}
+@media screen and (max-width:376px) {
+    .subtwo{
+        height: 27vh;
+    }
+    .subtwo h1{
+padding-right: 190px;
+    }
+    .subthree{
+        height: 39vh;
+    }
 }
